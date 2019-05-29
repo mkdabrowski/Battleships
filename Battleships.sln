@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Battleships", "Battleships\Battleships.csproj", "{CCBFD0EB-A696-477D-A36E-A479DA8820A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Battleships.Tests", "Battleships.Tests\Battleships.Tests.csproj", "{AF27A49D-9C57-4FDC-B266-ADA22349C741}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE5A8598-B128-498D-A328-714EFA17EEA1}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		README.MD = README.MD
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCBFD0EB-A696-477D-A36E-A479DA8820A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBFD0EB-A696-477D-A36E-A479DA8820A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBFD0EB-A696-477D-A36E-A479DA8820A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBFD0EB-A696-477D-A36E-A479DA8820A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF27A49D-9C57-4FDC-B266-ADA22349C741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF27A49D-9C57-4FDC-B266-ADA22349C741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF27A49D-9C57-4FDC-B266-ADA22349C741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF27A49D-9C57-4FDC-B266-ADA22349C741}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF024E14-CF6C-4942-B674-75574D4FF055}
+	EndGlobalSection
+EndGlobal
